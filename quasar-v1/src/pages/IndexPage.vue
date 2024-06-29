@@ -183,6 +183,7 @@ export default defineComponent({
   --internal-key-color: #fff;
   --internal-value-color-string: #fff;
   --internal-value-color-number: #0ff;
+  --jse-panel-background: rgba(255, 255, 255, 0.2);
 }
 .theme-json-editor .jse-menu{
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -212,6 +213,8 @@ export default defineComponent({
 .theme-json-editor .jse-button.jse-search{
   display: none !important;
 }
-
+.theme-json-editor .jse-status-bar{
+  border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
 
 </style>
